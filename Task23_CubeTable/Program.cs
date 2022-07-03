@@ -8,9 +8,9 @@ void CubeTablePrint()
     int N = EnterNumber();
     Console.ForegroundColor = ConsoleColor.DarkGreen;
     Console.Write($"The cube table for the number {N}: ");
-    for (int i = 0; i <= N; i++)
+    for (int i = 1; i <= N; i++)
     {
-        Console.Write($"{i*i}, ");
+        Console.Write($"{i*i*i}, ");
     }
     Console.Write("\b \b");
     Console.Write("\b \b");
