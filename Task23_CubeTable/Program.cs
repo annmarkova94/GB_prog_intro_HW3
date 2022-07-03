@@ -1,4 +1,4 @@
-﻿// Enter a number N,show Cube table from 1 to N
+﻿// Enter a number N, show Cube table from 1 to N
 CubeTablePrint();
 
 void CubeTablePrint()
